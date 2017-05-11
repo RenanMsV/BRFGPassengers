@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<PropertyList>
+  <name>brfgpassengers</name>
+  <layout>vbox</layout>
+
+  <!-- Reminder, included are: Seatbelt, Departure, CrewDeparture, take-off, cruising, descending, brace -->
+
+  <text>
+    <label>Anuncios</label>
+  </text>
+
+  <hrule/>
+
+  <group>
+    <layout>vbox</layout>
+    <halign>center</halign>
+
+    <hrule/>
+
+    <!--checkbox>
+      <halign>left</halign>
+      <label>Afivelar os cintos</label>
+      <property>sim/sound/seatbelt-sign</property>
+      <binding>
+        <command>property-toggle</command>
+        <property>sim/sound/seatbelt-sign</property>
+      </binding>
+      <live>true</live>
+    </checkbox>
+
+    <checkbox>
+      <halign>left</halign>
+      <label>Nao Fume</label>
+      <property>sim/sound/no-smoking-sign</property>
+      <binding>
+        <command>property-toggle</command>
+        <property>sim/sound/no-smoking-sign</property>
+      </binding>
+      <live>true</live>
+    </checkbox>
+
+    <hrule/-->
+
+    <checkbox>
+      <halign>left</halign>
+      <label>Bem Vindo a Bordo</label>
+      <property>sim/sound/brfgpassengers/welcome</property>
+      <binding>
+        <command>property-toggle</command>
+        <property>sim/sound/brfgpassengers/welcome</property>
+      </binding>
+      <live>true</live>
+    </checkbox>
+    <checkbox>
+      <halign>left</halign>
+      <label>Procedimentos de Seguranca</label>
+      <property>sim/sound/brfgpassengers/safety</property>
+      <binding>
+        <command>property-toggle</command>
+        <property>sim/sound/brfgpassengers/safety</property>
+      </binding>
+      <live>true</live>
+    </checkbox>
+    <checkbox>
+      <halign>left</halign>
+      <label>Decolagem Autorizada</label>
+      <property>sim/sound/brfgpassengers/prepareto</property>
+      <binding>
+        <command>property-toggle</command>
+        <property>sim/sound/brfgpassengers/prepareto</property>
+      </binding>
+      <live>true</live>
+    </checkbox>
+    <checkbox>
+      <halign>left</halign>
+      <label>Subindo para Altitude de Cruzeiro</label>
+      <property>sim/sound/brfgpassengers/climbimg</property>
+      <binding>
+        <command>property-toggle</command>
+        <property>sim/sound/brfgpassengers/climbimg</property>
+      </binding>
+      <live>true</live>
+    </checkbox>
+    <checkbox>
+      <halign>left</halign>
+      <label>Servico de Bordo</label>
+      <property>sim/sound/brfgpassengers/boardservice</property>
+      <binding>
+        <command>property-toggle</command>
+        <property>sim/sound/brfgpassengers/boardservice</property>
+      </binding>
+      <live>true</live>
+    </checkbox>
+    <checkbox>
+      <halign>left</halign>
+      <label>Pouso autorizado</label>
+      <property>sim/sound/brfgpassengers/prepareld</property>
+      <binding>
+        <command>property-toggle</command>
+        <property>sim/sound/brfgpassengers/prepareld</property>
+      </binding>
+      <live>true</live>
+    </checkbox>
+    <checkbox>
+      <halign>left</halign>
+      <label>Procedimentos Seguranca Apos Pouso</label>
+      <property>sim/sound/brfgpassengers/afterld</property>
+      <binding>
+        <command>property-toggle</command>
+        <property>sim/sound/brfgpassengers/afterld</property>
+      </binding>
+      <live>true</live>
+    </checkbox>
+  </group>
+
+  <hrule/>
+
+  <group>
+    <layout>hbox</layout>
+    <empty><stretch>true</stretch></empty>
+
+    <button>
+      <legend>Close</legend>
+      <default>true</default>
+      <key>Esc</key>
+      <binding>
+        <command>dialog-close</command>
+      </binding>
+    </button>
+
+    <empty><stretch>true</stretch></empty>
+  </group>
+
+</PropertyList>
