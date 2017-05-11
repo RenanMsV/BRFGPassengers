@@ -1,2 +1,8 @@
 # BRFGPassengers
-Alguns sistemas para o simulador de voo FlightGear. 
+Sistema de Anuncios em Portugues para o Simulador FlightGear.
+
+Ajude-me enviando audios em melhor qualidade aqui : [ em breve link ] 
+
+Para instalar : 
+
+Extraia e jogue a pasta Nasal dentro da pasta Data de seu FlightGear.
