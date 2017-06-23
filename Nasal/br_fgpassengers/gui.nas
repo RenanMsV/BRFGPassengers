@@ -18,7 +18,7 @@ var load_gui = func {
 	props.globals.getNode("/sim/menubar/default/menu[5]").addChild("item").setValues(data);
 	
 	var data = {
-		label   : "BRFGPassengers (v01)",
+		label   : "BRFGPassengers (v02)",
 		name    : "brfgpassengers",
 		binding : { command : "dialog-show", "dialog-name" : "brfgpassengers" }
 	};

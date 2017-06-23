@@ -17,18 +17,18 @@
 
     <hrule/>
 
-    <!--checkbox>
+    <checkbox>
       <halign>left</halign>
-      <label>Afivelar os cintos</label>
-      <property>sim/sound/seatbelt-sign</property>
+      <label>Alerta de Cabine</label>
+      <property>sim/sound/brfgpassengers/cabinalert</property>
       <binding>
         <command>property-toggle</command>
-        <property>sim/sound/seatbelt-sign</property>
+        <property>sim/sound/brfgpassengers/cabinalert</property>
       </binding>
       <live>true</live>
     </checkbox>
 
-    <checkbox>
+    <!--checkbox>
       <halign>left</halign>
       <label>Nao Fume</label>
       <property>sim/sound/no-smoking-sign</property>
@@ -78,6 +78,26 @@
       <binding>
         <command>property-toggle</command>
         <property>sim/sound/brfgpassengers/climbimg</property>
+      </binding>
+      <live>true</live>
+    </checkbox>
+    <checkbox>
+      <halign>left</halign>
+      <label>Aviso Antes de Turbulencia</label>
+      <property>sim/sound/brfgpassengers/beforeturb</property>
+      <binding>
+        <command>property-toggle</command>
+        <property>sim/sound/brfgpassengers/beforeturb</property>
+      </binding>
+      <live>true</live>
+    </checkbox>
+    <checkbox>
+      <halign>left</halign>
+      <label>Aviso Durante Turbulencia</label>
+      <property>sim/sound/brfgpassengers/turb</property>
+      <binding>
+        <command>property-toggle</command>
+        <property>sim/sound/brfgpassengers/turb</property>
       </binding>
       <live>true</live>
     </checkbox>

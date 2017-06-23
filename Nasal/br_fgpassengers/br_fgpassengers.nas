@@ -1,4 +1,3 @@
-var my_version   = "v1.2";
 #==================================================
 
 #--------------------------------------------------
@@ -36,6 +35,10 @@ var fdm_init_listener = _setlistener("/sim/signals/fdm-initialized", func {
 props.globals.getNode("/sim/sound/chatter/enabled").setValue(1);
 props.globals.getNode("/sim/sound/chatter/volume").setValue(1.0);
 
+setlistener("/sim/sound/brfgpassengers/cabinalert", func {
+	if(!getprop("/sim/sound/brfgpassengers/cabinalert")) return;
+	play_sound("crew_cabinalert.wav");
+});
 setlistener("/sim/sound/brfgpassengers/welcome", func {
 	if(!getprop("/sim/sound/brfgpassengers/welcome")) return;
 	play_sound("crew1_welcomeonboard.wav");
@@ -52,6 +55,14 @@ setlistener("/sim/sound/brfgpassengers/climbimg", func {
 	if(!getprop("/sim/sound/brfgpassengers/climbimg")) return;
 	play_sound("crew3_climbingdevice.wav");
 });
+setlistener("/sim/sound/brfgpassengers/beforeturb", func {
+	if(!getprop("/sim/sound/brfgpassengers/beforeturb")) return;
+	play_sound("crew_beforeturbulence.wav");
+});
+setlistener("/sim/sound/brfgpassengers/turb", func {
+	if(!getprop("/sim/sound/brfgpassengers/turb")) return;
+	play_sound("crew_turbulence.wav");
+});
 setlistener("/sim/sound/brfgpassengers/boardservice", func {
 	if(!getprop("/sim/sound/brfgpassengers/boardservice")) return;
 	play_sound("crew_servesandwich.wav");
@@ -66,6 +77,5 @@ setlistener("/sim/sound/brfgpassengers/afterld", func {
 });
 #var reinit_listener = setlistener("/sim/signals/reinit", func {
 #	fgcommand("gui-redraw");
-#	fgcommand("fgcamera-reset-view");
 #});
 #eof
