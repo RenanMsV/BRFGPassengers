@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+    <meta>
+        <file-type type="string">FlightGear add-on menu bar items</file-type>
+        <format-version type="int">1</format-version>
+    </meta>
+    <menubar-items>
+        <menu>
+            <label>BRFGPassengers</label>
+            <enabled type="bool">true</enabled>
+
+            <item>
+                <label>Anuncios</label>
+                <binding>
+                    <command>dialog-show</command>
+                    <dialog-name>brfgpassengers-announcements-dialog</dialog-name>
+                </binding>
+            </item>
+
+            <!--
+            <item>
+                <label>Reload</label>
+                <binding>
+                    <command>addon-reload</command>
+                    <id>github.renanmsv.addons.BRFGPassengers</id>
+                </binding>
+            </item>
+            -->
+
+        </menu>
+    </menubar-items>
+</PropertyList>

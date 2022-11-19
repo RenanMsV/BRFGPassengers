@@ -1,6 +1,7 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- this file requires FlightGear version 2018.2 or newer -->
 <PropertyList>
-  <name>brfgpassengers</name>
+  <name>brfgpassengers-announcements-dialog</name>
   <layout>vbox</layout>
 
   <!-- Reminder, included are: Seatbelt, Departure, CrewDeparture, take-off, cruising, descending, brace -->
@@ -8,8 +9,6 @@
   <text>
     <label>Anuncios</label>
   </text>
-
-  <hrule/>
 
   <group>
     <layout>vbox</layout>
@@ -20,10 +19,10 @@
     <checkbox>
       <halign>left</halign>
       <label>Alerta de Cabine</label>
-      <property>sim/sound/brfgpassengers/cabinalert</property>
+      <property>/addons/by-id/github.renanmsv.addons.BRFGPassengers/sounds/cabinalert</property>
       <binding>
         <command>property-toggle</command>
-        <property>sim/sound/brfgpassengers/cabinalert</property>
+        <property>/addons/by-id/github.renanmsv.addons.BRFGPassengers/sounds/cabinalert</property>
       </binding>
       <live>true</live>
     </checkbox>
@@ -44,90 +43,98 @@
     <checkbox>
       <halign>left</halign>
       <label>Bem Vindo a Bordo</label>
-      <property>sim/sound/brfgpassengers/welcome</property>
+      <property>/addons/by-id/github.renanmsv.addons.BRFGPassengers/sounds/welcome</property>
       <binding>
         <command>property-toggle</command>
-        <property>sim/sound/brfgpassengers/welcome</property>
+        <property>/addons/by-id/github.renanmsv.addons.BRFGPassengers/sounds/welcome</property>
       </binding>
       <live>true</live>
     </checkbox>
+
     <checkbox>
       <halign>left</halign>
       <label>Procedimentos de Seguranca</label>
-      <property>sim/sound/brfgpassengers/safety</property>
+      <property>/addons/by-id/github.renanmsv.addons.BRFGPassengers/sounds/safety</property>
       <binding>
         <command>property-toggle</command>
-        <property>sim/sound/brfgpassengers/safety</property>
+        <property>/addons/by-id/github.renanmsv.addons.BRFGPassengers/sounds/safety</property>
       </binding>
       <live>true</live>
     </checkbox>
+
     <checkbox>
       <halign>left</halign>
       <label>Decolagem Autorizada</label>
-      <property>sim/sound/brfgpassengers/prepareto</property>
+      <property>/addons/by-id/github.renanmsv.addons.BRFGPassengers/sounds/prepareto</property>
       <binding>
         <command>property-toggle</command>
-        <property>sim/sound/brfgpassengers/prepareto</property>
+        <property>/addons/by-id/github.renanmsv.addons.BRFGPassengers/sounds/prepareto</property>
       </binding>
       <live>true</live>
     </checkbox>
+
     <checkbox>
       <halign>left</halign>
       <label>Subindo para Altitude de Cruzeiro</label>
-      <property>sim/sound/brfgpassengers/climbimg</property>
+      <property>/addons/by-id/github.renanmsv.addons.BRFGPassengers/sounds/climbimg</property>
       <binding>
         <command>property-toggle</command>
-        <property>sim/sound/brfgpassengers/climbimg</property>
+        <property>/addons/by-id/github.renanmsv.addons.BRFGPassengers/sounds/climbimg</property>
       </binding>
       <live>true</live>
     </checkbox>
+
     <checkbox>
       <halign>left</halign>
       <label>Aviso Antes de Turbulencia</label>
-      <property>sim/sound/brfgpassengers/beforeturb</property>
+      <property>/addons/by-id/github.renanmsv.addons.BRFGPassengers/sounds/beforeturb</property>
       <binding>
         <command>property-toggle</command>
-        <property>sim/sound/brfgpassengers/beforeturb</property>
+        <property>/addons/by-id/github.renanmsv.addons.BRFGPassengers/sounds/beforeturb</property>
       </binding>
       <live>true</live>
     </checkbox>
+
     <checkbox>
       <halign>left</halign>
       <label>Aviso Durante Turbulencia</label>
-      <property>sim/sound/brfgpassengers/turb</property>
+      <property>/addons/by-id/github.renanmsv.addons.BRFGPassengers/sounds/turb</property>
       <binding>
         <command>property-toggle</command>
-        <property>sim/sound/brfgpassengers/turb</property>
+        <property>/addons/by-id/github.renanmsv.addons.BRFGPassengers/sounds/turb</property>
       </binding>
       <live>true</live>
     </checkbox>
+
     <checkbox>
       <halign>left</halign>
       <label>Servico de Bordo</label>
-      <property>sim/sound/brfgpassengers/boardservice</property>
+      <property>/addons/by-id/github.renanmsv.addons.BRFGPassengers/sounds/boardservice</property>
       <binding>
         <command>property-toggle</command>
-        <property>sim/sound/brfgpassengers/boardservice</property>
+        <property>/addons/by-id/github.renanmsv.addons.BRFGPassengers/sounds/boardservice</property>
       </binding>
       <live>true</live>
     </checkbox>
+
     <checkbox>
       <halign>left</halign>
       <label>Pouso autorizado</label>
-      <property>sim/sound/brfgpassengers/prepareld</property>
+      <property>/addons/by-id/github.renanmsv.addons.BRFGPassengers/sounds/prepareld</property>
       <binding>
         <command>property-toggle</command>
-        <property>sim/sound/brfgpassengers/prepareld</property>
+        <property>/addons/by-id/github.renanmsv.addons.BRFGPassengers/sounds/prepareld</property>
       </binding>
       <live>true</live>
     </checkbox>
+
     <checkbox>
       <halign>left</halign>
       <label>Procedimentos Seguranca Apos Pouso</label>
-      <property>sim/sound/brfgpassengers/afterld</property>
+      <property>/addons/by-id/github.renanmsv.addons.BRFGPassengers/sounds/afterld</property>
       <binding>
         <command>property-toggle</command>
-        <property>sim/sound/brfgpassengers/afterld</property>
+        <property>/addons/by-id/github.renanmsv.addons.BRFGPassengers/sounds/afterld</property>
       </binding>
       <live>true</live>
     </checkbox>

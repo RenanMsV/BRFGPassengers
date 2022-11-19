@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+  <meta>
+    <file-type type="string">FlightGear add-on metadata</file-type>
+    <format-version type="int">1</format-version>
+  </meta>
+
+  <addon>
+    <identifier type="string">github.renanmsv.addons.BRFGPassengers</identifier>
+    <name type="string">BRFGPassengers</name>
+    <version type="string">1.0.0</version>
+
+    <authors>
+      <author>
+        <name type="string">RenanMsV BR-RVD</name>
+        <email type="string"></email>
+        <url type="string"></url>
+      </author>
+      <author>
+        <name type="string">Renato Santos BR-SD25</name>
+        <email type="string"></email>
+        <url type="string"></url>
+      </author>
+    </authors>
+
+    <maintainers>
+      <maintainer>
+        <name type="string">Github RenanMsV</name>
+        <url type="string">
+          https://github.com/RenanMsV/BRFGPassengers
+        </url>
+      </maintainer>
+    </maintainers>
+
+    <short-description type="string">
+      Sistema de Anuncios de Cabine em Portugues para o Simulador FlightGear.
+    </short-description>
+
+    <long-description type="string">
+      Sistema de Anuncios de Cabine em Portugues para o Simulador FlightGear. Ajude-me enviando audios em melhor qualidade no github
+    </long-description>
+
+    <license>
+      <designation type="string">
+        GNU GPL version 3 or later
+      </designation>
+
+      <file type="string">
+        <!-- Use a relative, slash-separated path to a file under the add-on
+             base directory that contains the add-on license text. -->
+      </file>
+
+      <url type="string">
+        https://www.gnu.org/licenses/gpl-3.0.en.html
+      </url>
+    </license>
+
+    <min-FG-version type="string">2020.1.0</min-FG-version>
+    <max-FG-version type="string">none</max-FG-version>
+
+    <urls>
+      <home-page type="string">
+        https://github.com/RenanMsV/BRFGPassengers
+      </home-page>
+
+      <download type="string">
+        https://github.com/RenanMsV/BRFGPassengers/releases
+      </download>
+
+      <support type="string">
+        https://github.com/RenanMsV/BRFGPassengers/issues
+      </support>
+
+      <code-repository type="string">
+        https://github.com/RenanMsV/BRFGPassengers.git
+      </code-repository>
+    </urls>
+
+    <tags>
+      <tag type="string">audio</tag>
+      <tag type="string">passengers</tag>
+      <tag type="string">announcement</tag>
+    </tags>
+
+    <localized>
+      <en>
+        <name type="string">BRFGPassengers</name>
+        <short-description type="string">
+          Cabin announcements in brazilian portuguese.
+        </short-description>
+
+        <long-description type="string">
+          Cabin announcements in brazilian portuguese.
+        </long-description>
+      </en>
+    </localized>
+  </addon>
+</PropertyList>

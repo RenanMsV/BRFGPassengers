@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<PropertyList>
+    <addons>
+        <by-id>
+            <github.renanmsv.addons.BRFGPassengers>
+                <sounds>
+                    <cabinalert type="bool">false</cabinalert>
+                    <welcome type="bool">false</welcome>
+                    <safety type="bool">false</safety>
+                    <prepareto type="bool">false</prepareto>
+                    <climbimg type="bool">false</climbimg>
+                    <beforeturb type="bool">false</beforeturb>
+                    <turb type="bool">false</turb>
+                    <boardservice type="bool">false</boardservice>
+                    <prepareld type="bool">false</prepareld>
+                    <afterld type="bool">false</afterld>
+                </sounds>
+            </github.renanmsv.addons.BRFGPassengers>
+        </by-id>
+    </addons>
+</PropertyList>
